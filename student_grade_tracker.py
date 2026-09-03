@@ -26,6 +26,48 @@ while True:
 
 elif choice == "2"
     if len(students) == 0:
+        print("No students have been added yet.")
+    else:
+        print("\n--- Student List ---")
+
+        for student in students:
+            print(student["name"], "-", student["grade"])
+
+elif choice == "3":
+    if len(students) == 0:
+        print("No students have been added yet.")
+    else:
+        total = 0
+
+        for student in students:
+            total += student["grade"]
+
+        average = total / len(students)
+
+        print("Class average:", average)
+
+elif choice == "4":
+    if len (students) == 0:
+        print("No students have been added yet.")
+    else:
+        highest_student = students[0]
+
+        for student in students:
+            if student["grade"] > highest_student["grade"]:
+                highest_student = student
+
+        print(
+            "Highest grade:",
+            highest_student["name"],
+            "-",
+            highest_student["grade"]
+        )
+
+elif choice == "5":
+    if len(students) == 0:
+        print("No students have been added yet.")
+    else:
+        print("/n--- Pass/Fail Status ---")
 
       
   
