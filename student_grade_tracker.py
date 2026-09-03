@@ -69,5 +69,17 @@ elif choice == "5":
     else:
         print("/n--- Pass/Fail Status ---")
 
+        for student in students:
+            if student["grade"] >= 50:
+                print(student["name"], "- Passed")
+            else:
+                print(student["name"], "- Failed")
+
+elif choice == "6":
+    print("Thank you for using Student Grade Tracker!")
+    break
+else:
+    print("Invalid choice. Please select a number between 1 and 6.")
+
       
   
