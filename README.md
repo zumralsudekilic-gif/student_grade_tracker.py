@@ -1,26 +1,9 @@
-# Student Grade Tracker 
+# Student Grade Tracker
 
-A simple Python project that allows users to track student grades.
+A command-line Python program for adding students, displaying grades, calculating the class average, finding the highest grade, and checking pass/fail status.
 
-## Features
+## Run
 
-- Add students and their grades
-- Display all students
-- Calculate the average grade
-- Find the hignest grade
-- Show whether a student passed or failed
+python student_grade_tracker.py
 
-## Technologies Used
-
-- Python 3
-
-## Concepts Used
-
-- Lists and Dictionaries
-- Functions
-- Loop
-- Conditional Statements
-- User Input
-
-
- 
+The program validates numeric grades and keeps running until option 6 is selected.
