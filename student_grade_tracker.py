@@ -24,7 +24,7 @@ while True:
 
         print("Student successfully added!") 
 
-elif choice == "2"
+elif choice == "2":
     if len(students) == 0:
         print("No students have been added yet.")
     else:
